@@ -1,0 +1,13 @@
+com\khalidmohamed\jsf\page\InputComponentPageBean.class
+com\khalidmohamed\jsf\dao\DessertLoaderDAO.class
+com\khalidmohamed\jsf\bean\FocusedAjaxBean.class
+com\khalidmohamed\jsf\dto\Dessert.class
+com\khalidmohamed\jsf\bean\sampleApplicationScopedBean.class
+com\khalidmohamed\jsf\converter\DessertConverter.class
+com\khalidmohamed\jsf\bean\SampleSessionScopedBean.class
+com\khalidmohamed\jsf\page\WelcomePageBean.class
+com\khalidmohamed\jsf\validator\SampleCustomValidator.class
+com\khalidmohamed\jsf\bean\SampleViewScopedBean.class
+com\khalidmohamed\jsf\page\SpinnerPageBean.class
+com\khalidmohamed\jsf\page\HTML5PageBean.class
+FileUploadPageBean\FileUploadPageBean.class
