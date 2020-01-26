@@ -42,7 +42,7 @@
                 <h:outputLabel value="This is money input(BigDecimal)"/>
                 <h:inputText converterMessage="We can't turn #{component.getSubmittedValue()} into money" converter="javax.faces.BigDecimal" value="#{componentListing.moneyInput}" id="bigDecimalInput"/>
                 <h:outputLabel value="This is a money output (BigDecimal)"/>
-                <h:outputText converter="javax.faces.BigDecimal" value="#{componentListing.moneyInput}" id="bigDecimalOutput"/>
+                <h:outputText escape="true" converter="javax.faces.BigDecimal" value="#{componentListing.moneyInput}" id="bigDecimalOutput"/>
                 <h:outputLabel value="This is the selected Dessert"/>
                 <h:outputText value="#{componentListing.selectedDessert}" converter="#{dessertConverter}" id="selectedDessertOutput"/>
             </h:panelGrid>  
